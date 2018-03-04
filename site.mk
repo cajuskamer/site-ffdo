@@ -6,6 +6,7 @@
 GLUON_SITE_PACKAGES := \
 	gluon-respondd \
 	gluon-autoupdater \
+	gluon-authorized-keys \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-contact-info \
 	gluon-config-mode-core \
@@ -58,5 +59,4 @@ GLUON_ATH10K_MESH ?= ibss
 
 # Languages to include
 GLUON_LANGS ?= en de
-
 

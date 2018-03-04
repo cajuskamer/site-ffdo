@@ -1,5 +1,7 @@
 # site-ffdo
-FF Dortmund (FFDO) specific Gluon configuration
+FF Dortmund - Werne (FFDO) specific Gluon configuration.
+
+Added some public ssh keys. Prefered for private usage.
 
 ## Using the Dockerfile
 
