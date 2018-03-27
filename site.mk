@@ -25,9 +25,11 @@ GLUON_SITE_PACKAGES := \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
+	gluon-banner \
 	haveged \
 	iptables \
-	iwinfo
+	iwinfo \
+	gluon-ssid-changer
 	
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images

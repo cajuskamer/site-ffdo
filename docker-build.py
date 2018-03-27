@@ -23,6 +23,7 @@ logdir = '%s/log' % outdir
 siteconf = '/usr/src/site.conf'
 sitemk = '/usr/src/site.mk'
 i18ndir = '/usr/src/i18n'
+extramodules = '/usr/src/modules'
 
 factorydir = '%s/images/factory' % outdir
 sysupdir = '%s/images/sysupgrade' % outdir
@@ -53,6 +54,7 @@ sitedir = '%s/site' % gluondir
 makedirs(sitedir)
 copy(siteconf, sitedir)
 copy(sitemk, sitedir)
+copy(extramodules, sitedir)
 copytree(i18ndir, '%s/i18n' % sitedir)
 
 # Prepare

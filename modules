@@ -1,6 +1,11 @@
-GLUON_SITE_FEEDS='ffms'
+GLUON_SITE_FEEDS='ffms ffdo'
 
 PACKAGES_FFMS_REPO=https://github.com/FreiFunkMuenster/packages-ffms.git
 PACKAGES_FFMS_COMMIT=bbd79510f4c0a70c764c441e142f376acccd3696
 PACKAGES_FFMS_BRANCH=v2017.1.x
+
+
+PACKAGES_FFDO_REPO=https://github.com/cajuskamer/site-packages.git
+PACKAGES_FFDO_COMMIT=9b336d0b813d5e050e5ea261641f6e6393d5a3f9
+PACKAGES_FFDO_BRANCH=ffdo_werne
 

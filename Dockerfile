@@ -21,6 +21,7 @@ ADD docker-build.py /usr/src/build.py
 ADD site.mk /usr/src/site.mk
 ADD site.conf /usr/src/site.conf
 ADD i18n /usr/src/i18n
+ADD modules /usr/src/modules
 
 RUN adduser --system --home /usr/src/build build
 USER build
